@@ -19,7 +19,7 @@ public class Main_page {
 
     public Main_page(WebDriver driver){this.driver = driver;}
 
-    public MobilesPage clickMandT(){
+    public MobilesPage clickMobileandTab(){
         driver.manage().window().maximize();
         WebDriverWait wait = new WebDriverWait(driver, 4);
         wait.until(ExpectedConditions.visibilityOfElementLocated((By.xpath("//button[@class='button_btn__r8N5j button_link__xvDOA']"))));
