@@ -7,7 +7,7 @@ Mall Page
    Quit the Browsers
  
 Main_page
-    clickMandT()
+    clickMobileandTab
 
 Mobiles PAges 
   Define Mobile Range information .
